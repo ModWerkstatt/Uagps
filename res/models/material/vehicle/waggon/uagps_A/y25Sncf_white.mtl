@@ -1,0 +1,80 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		color_blend = {
+			albedoScales = { 0, },
+			colors = {
+				{ 0, 0, 0, },
+			},
+		},
+		dirt_rust = {
+			age = 0,
+			dirtColor = { 0.23921567201614, 0.19619496166706, 0.16885811090469, },
+			dirtFactor = 0,
+			dirtOpacity = 0,
+			dirtScale = 1,
+			rustColor = { 0.45098036527634, 0.33383598923683, 0.30242213606834, },
+			rustFactor = 0,
+			rustOpacity = 0,
+			rustScale = 1,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "model/vehicle/waggon/dreh_y25/drehgestellU_albedoBeige.dds",
+			type = "TWOD",
+		},
+		map_cblend_dirt_rust = {
+			fileName = "model/vehicle/waggon/uagpsA/uagps_gestell_cblend.dds",
+			type = "TWOD",
+		},
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "model/vehicle/waggon/uagpsA/uagps_gestell_mga.dds",
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "model/vehicle/waggon/uagpsA/uagps_gestell_nrml.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+		},
+		map_rust_normal = {
+			fileName = "models/vehicle/rust_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND_DIRT",
+}
+end

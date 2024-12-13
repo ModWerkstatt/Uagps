@@ -593,7 +593,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2015,
+			yearFrom = 2013,
 			yearTo = -1,
 		},
 		cost = {
@@ -602,7 +602,7 @@ return {
 		},
 		description = {
 			description = _("uagpsA1_desc"),
-			name = _("Uagps (Millet ex. CTC) [2015]"),
+			name = _("Uagps (Millet ex. Sanders) [2013]"),
 		},
 		emission = {
 			idleEmission = -1,

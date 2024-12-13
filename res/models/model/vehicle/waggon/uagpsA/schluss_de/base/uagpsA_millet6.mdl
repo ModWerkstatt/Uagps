@@ -21,14 +21,12 @@ return {
 						name = "zugschluss_db",
 						transf = { 0.99433720111847, -1.3354828070078e-06, -0.10626398772001, 0, 0.00055773725034669, 0.99998581409454, 0.0052063120529056, 0, 0.10626252740622, -0.0052360999397933, 0.99432361125946, 0, -6.8099999427795, 0.83999997377396, 1.3600000143051, 1, },
 					},
-
 					{
 						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
 						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 						name = "zugschluss_db",
 						transf = { 0.99999928474426, -1.3430874332698e-06, -0, 0, 1.3327887700143e-06, 0.99233144521713, 0.12360141426325, 0, -1.6600758101504e-07, -0.12360139191151, 0.9923312664032, 0, -6.8000001907349, -0.87000000476837, 1.3600000143051, 1, },
 					},
-
 					{
 						materials = { "vehicle/waggon/uagps_A/UagpsA_millet6.mtl", },
 						mesh = "vehicle/waggon/uagps_A/jay_mesh_uagpsA_underframe_lod0.msh",
@@ -232,14 +230,12 @@ return {
 						name = "zugschluss_db",
 						transf = { 0.99433720111847, -1.3354828070078e-06, -0.10626398772001, 0, 0.00055773725034669, 0.99998581409454, 0.0052063120529056, 0, 0.10626252740622, -0.0052360999397933, 0.99432361125946, 0, -6.8099999427795, 0.83999997377396, 1.3600000143051, 1, },
 					},
-
 					{
 						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
 						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
 						name = "zugschluss_db",
 						transf = { 0.99999928474426, -1.3430874332698e-06, -0, 0, 1.3327887700143e-06, 0.99233144521713, 0.12360141426325, 0, -1.6600758101504e-07, -0.12360139191151, 0.9923312664032, 0, -6.8000001907349, -0.87000000476837, 1.3600000143051, 1, },
 					},
-
 					{
 						materials = { "vehicle/waggon/uagps_A/UagpsA_millet6.mtl", },
 						mesh = "vehicle/waggon/uagps_A/jay_mesh_uagpsA_underframe_lod1.msh",
@@ -573,7 +569,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2015,
+			yearFrom = 2013,
 			yearTo = -1,
 		},
 		cost = {
@@ -582,7 +578,7 @@ return {
 		},
 		description = {
 			description = _("uagpsA1_desc"),
-			name = _("Uagps (Millet ex. CTC) [2015]"),
+			name = _("Uagps (Millet ex. Sanders) [2013]"),
 		},
 		emission = {
 			idleEmission = -1,

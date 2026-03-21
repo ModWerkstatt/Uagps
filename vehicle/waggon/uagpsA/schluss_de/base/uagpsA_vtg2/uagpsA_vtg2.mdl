@@ -1,0 +1,718 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.38284397125244140625, 1.59104788303375244140625, 4.32933807373046875, },
+			bbMin = { -7.38284397125244140625, -1.59104788303375244140625, -0.019391000270843505859375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 7.38284397125244140625, 1.59104788303375244140625, 2.174364566802978515625, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/zugschluss.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/zugschluss/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_db",
+							transf = { 0.99433720111846923828125, -0.0000013354828070077928714454174041748046875, -0.106263987720012664794921875, 0, 0.0005577372503466904163360595703125, 0.99998581409454345703125, 0.005206312052905559539794921875, 0, 0.106262527406215667724609375, -0.0052360999397933483123779296875, 0.99432361125946044921875, 0, -6.809999942779541015625, 0.839999973773956298828125, 1.36000001430511474609375, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/zugschluss.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/zugschluss/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_db",
+							transf = { 0.9999992847442626953125, -0.000001343087433269829489290714263916015625, -0, 0, 0.000001332788770014303736388683319091796875, 0.992331445217132568359375, 0.123601414263248443603515625, 0, -0.0000001660075810150374309159815311431884765625, -0.12360139191150665283203125, 0.9923312664031982421875, 0, -6.80000019073486328125, -0.87000000476837158203125, 1.36000001430511474609375, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_underframe_lod0.msh",
+							name = "jay_mesh_uagpsA_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_zs_lod0.msh",
+							name = "jay_mesh_uagpsA_zs",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_seilhaken_lod0.msh",
+							name = "jay_mesh_uagpsA_seilhaken",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_body_lod0.msh",
+							name = "jay_mesh_uagpsA_body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_bodyHolder_lod0.msh",
+							name = "jay_mesh_uagpsA_bodyHolder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_frontHolders_lod0.msh",
+							name = "jay_mesh_uagpsA_frontHolders",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_sustain_lod0.msh",
+							name = "jay_mesh_uagpsA_sustain",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_ladder_lod0.msh",
+							name = "jay_mesh_uagpsA_ladder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_couplers_lod0.msh",
+							name = "jay_mesh_uagpsA_couplers",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_buffer_lod0.msh",
+							name = "jay_mesh_uagpsA_buffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainOpening_lod0.msh",
+							name = "jay_mesh_uagpsA_grainOpening",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainMechanics_lod0.msh",
+							name = "jay_mesh_uagpsA_grainMechanics",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_buhne_lod0.msh",
+							name = "jay_mesh_uagpsA_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainMechanicMid_lod0.msh",
+							name = "jay_mesh_uagpsA_grainMechanicMid",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_weirdThing_lod0.msh",
+							name = "jay_mesh_uagpsA_weirdThing",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_pipeHolders_lod0.msh",
+							name = "jay_mesh_uagpsA_pipeHolders",
+							transf = { 0.999999582767486572265625, -0.000927434419281780719757080078125, 0, 0, 0.000927434419281780719757080078125, 0.999999582767486572265625, 0, 0, 0, 0, 1, 0, 0, -0.012278825975954532623291015625, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_pipeHoldersFront_lod0.msh",
+							name = "jay_mesh_uagpsA_pipeHoldersFront",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_deckHolders_lod0.msh",
+							name = "jay_mesh_uagpsA_deckHolders",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_kegp_lod0.msh",
+							name = "jay_mesh_uagpsA_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_underparts_lod0.msh",
+							name = "jay_mesh_uagpsA_underparts",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_pipeUp_lod0.msh",
+							name = "jay_mesh_uagpsA_pipeUp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_bodyRoofTop_lod0.msh",
+							name = "jay_mesh_uagpsA_bodyRoofTop",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_zh_lod0.msh",
+							name = "jay_mesh_uagpsA_zh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_b2_lod0.msh",
+									name = "jay_mesh_uagpsA_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod0.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod0.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.929999828338623046875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_b2_lod0.msh",
+									name = "jay_mesh_uagpsA_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod0.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod0.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.929999828338623046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 54.878078460693359375,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/zugschluss.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/zugschluss/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_db",
+							transf = { 0.99433720111846923828125, -0.0000013354828070077928714454174041748046875, -0.106263987720012664794921875, 0, 0.0005577372503466904163360595703125, 0.99998581409454345703125, 0.005206312052905559539794921875, 0, 0.106262527406215667724609375, -0.0052360999397933483123779296875, 0.99432361125946044921875, 0, -6.809999942779541015625, 0.839999973773956298828125, 1.36000001430511474609375, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "/vehicle/waggon/modwerkstatt_basis/mat/zugschluss.mtl", },
+							mesh = "/vehicle/waggon/modwerkstatt_basis/zugschluss/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_db",
+							transf = { 0.9999992847442626953125, -0.000001343087433269829489290714263916015625, -0, 0, 0.000001332788770014303736388683319091796875, 0.992331445217132568359375, 0.123601414263248443603515625, 0, -0.0000001660075810150374309159815311431884765625, -0.12360139191150665283203125, 0.9923312664031982421875, 0, -6.80000019073486328125, -0.87000000476837158203125, 1.36000001430511474609375, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_underframe_lod1.msh",
+							name = "jay_mesh_uagpsA_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_seilhaken_lod1.msh",
+							name = "jay_mesh_uagpsA_seilhaken",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_body_lod1.msh",
+							name = "jay_mesh_uagpsA_body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_bodyHolder_lod1.msh",
+							name = "jay_mesh_uagpsA_bodyHolder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_frontHolders_lod1.msh",
+							name = "jay_mesh_uagpsA_frontHolders",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_sustain_lod1.msh",
+							name = "jay_mesh_uagpsA_sustain",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_ladder_lod1.msh",
+							name = "jay_mesh_uagpsA_ladder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_buffer_lod1.msh",
+							name = "jay_mesh_uagpsA_buffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainOpening_lod1.msh",
+							name = "jay_mesh_uagpsA_grainOpening",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainMechanics_lod1.msh",
+							name = "jay_mesh_uagpsA_grainMechanics",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_buhne_lod1.msh",
+							name = "jay_mesh_uagpsA_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainMechanicMid_lod1.msh",
+							name = "jay_mesh_uagpsA_grainMechanicMid",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_weirdThing_lod1.msh",
+							name = "jay_mesh_uagpsA_weirdThing",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_kegp_lod1.msh",
+							name = "jay_mesh_uagpsA_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_underparts_lod1.msh",
+							name = "jay_mesh_uagpsA_underparts",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_pipeUp_lod1.msh",
+							name = "jay_mesh_uagpsA_pipeUp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_bodyRoofTop_lod1.msh",
+							name = "jay_mesh_uagpsA_bodyRoofTop",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_b2_lod1.msh",
+									name = "jay_mesh_uagpsA_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod1.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod1.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b1_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.929999828338623046875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_b2_lod1.msh",
+									name = "jay_mesh_uagpsA_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod1.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod1.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.929999828338623046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 54.878078460693359375,
+				visibleTo = 164.6342315673828125,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_underframe_lod2.msh",
+							name = "jay_mesh_uagpsA_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_body_lod2.msh",
+							name = "jay_mesh_uagpsA_body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_sustain_lod2.msh",
+							name = "jay_mesh_uagpsA_sustain",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_ladder_lod2.msh",
+							name = "jay_mesh_uagpsA_ladder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainOpening_lod2.msh",
+							name = "jay_mesh_uagpsA_grainOpening",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_buhne_lod2.msh",
+							name = "jay_mesh_uagpsA_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_grainMechanicMid_lod2.msh",
+							name = "jay_mesh_uagpsA_grainMechanicMid",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_bodyRoofTop_lod2.msh",
+							name = "jay_mesh_uagpsA_bodyRoofTop",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_b2_lod2.msh",
+									name = "jay_mesh_uagpsA_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod2.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod2.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b1_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.929999828338623046875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_b2_lod2.msh",
+									name = "jay_mesh_uagpsA_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod2.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod2.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.929999828338623046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 164.6342315673828125,
+				visibleTo = 493.902679443359375,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_underframe_lod3.msh",
+							name = "jay_mesh_uagpsA_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_body_lod3.msh",
+							name = "jay_mesh_uagpsA_body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "/vehicle/waggon/uagps_A/mat/UagpsA_vtg2.mtl", },
+							mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_bodyRoofTop_lod3.msh",
+							name = "jay_mesh_uagpsA_bodyRoofTop",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod3.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod3.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b1_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.929999828338623046875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod3.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "/vehicle/waggon/uagps_A/mat/y25Sncf_alt.mtl", },
+									mesh = "/vehicle/waggon/uagps_A/msh/jay_mesh_uagpsA_w3_lod3.msh",
+									name = "jay_mesh_uagpsA_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.929999828338623046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 493.902679443359375,
+				visibleTo = 1481.7080078125,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2010,
+				yearTo = -1,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("uagpsA1_desc"),
+				name = _("Uagps (VTG ex. TMF Cita) [2010]"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 27.700000762939453125,
+				weightEmpty = 20000,
+				weightMaxPayload = 0,
+			},
+			maintenance = { 
+				lifespan = 20000,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "jay_mesh_uagpsA_w3", },
+					fakeBogies = {
+						{ },
+						{ },
+						{ },
+						{ },
+					},
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "/mw_rustikal",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 80,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "/vehicle/waggon/UagpsA1_menu.mdl",
+				loadSpeed = 3,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

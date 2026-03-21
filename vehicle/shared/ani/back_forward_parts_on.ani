@@ -1,0 +1,8 @@
+function data()
+return { 
+		times = { 0, },
+		transfs = {
+			{ 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		},
+	}
+end

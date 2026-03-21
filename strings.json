@@ -1,0 +1,66 @@
+{
+  "en": {
+	
+		"menu_uagps" : "Carrying trolley for pa container",
+
+		"uagps_a1_desc" : "Universal grain wagon Uagps, built in 1971 by Fauvet Girel. Version with flat sidewalls, limited to 100 km/h.",
+		"uagps_b1_desc" : "Universal grain wagon Uagps, built in 1974 by Fauvet Girel. Version with curved sidewalls.",
+		
+		"uagps_a" : "Uagps (flat sidewalls)",
+		"uagps_b" : "Uagps (curved sidewalls)",
+		
+		"tafel_aktiv" : "Type of Train End",
+		"schluss_de" : "Train End Board",
+		"schluss_fr" : "Train End Light",
+		"schluss_tooltip" : "Choose between train end boards or train end lights (SNCF, SNCB..)",
+		
+		"ctc_aktiv" : "Additional C.T.C. Versions",
+		"fr_aktiv" : "Additional French Versions",
+		"it_aktiv" : "Italian Versions",
+		"ctc_tooltip" : "Enable additional Transcereales liveries from various operators",
+		"fr_version_tooltip" : "Enable additional French liveries",
+		"it_version_tooltip" : "Enable Italian liveries",
+			
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"		
+	
+  },
+  "de": {
+	
+		"menu_uagps" : "Tragwagen für pa-Behälter",
+	
+        "uagps_a1_desc" : "Universalgetreidewagen Uagps, gebaut 1971 von Fauvet Girel. Version mit geraden Seitenwänden, beschränkt auf 100 km/h.",
+        "uagps_b1_desc" : "Universalgetreidewagen Uagps, gebaut 1974 von Fauvet Girel. Version mit gewölbten Seitenwänden.",
+		
+		"Uagps_a" : "Uagps (gerade Seitenwände)",
+		"Uagps_b" : "Uagps (gewölbte Seitenwände)",
+		
+		"tafel_aktiv" : "Art von Zugschluss",
+		"schluss_de" : "Zugschlusstafel",
+		"schluss_fr" : "Zugschlusslicht",
+		"schluss_tooltip" : "Entweder Zugschlusstafeln oder Zugschlussleuchten (SNCF, SNCB..) wählen",
+		
+		"ctc_aktiv" : "Zusätzliche C.T.C. Versionen",
+		"fr_aktiv" : "Zusätzliche Französische Versionen",
+		"it_aktiv" : "Italienische Versionen",
+		"ctc_tooltip" : "Aktivieren zusätzlicher Transcereales Lackierungen von verschiedenen Einstellern",
+		"fr_version_tooltip" : "Aktivieren zusätzlicher französischer Lackierungen",
+		"it_version_tooltip" : "Aktivieren italienischer Lackierungen",
+		
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+	
+    }
+}

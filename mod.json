@@ -1,0 +1,32 @@
+{
+    "dependencies": [
+        {
+            "mod": {
+                "modId": "mw_basis",
+                "revisionMin": 1,
+                "revisionMax": -1
+            },
+            "modInfo": {
+                "displayName": "ModWerkstatt Base Mod",
+                 "url": "https://modwerkstatt.com/downloads/tpf3/basismod"
+            },
+            "loadBefore": true,
+            "optional": false
+        }
+    ],
+    "incompatibilities": null,
+    "modId": "mw_uagps",
+    "params": null,
+    "postRunScript": {
+        "fileName": ""
+    },
+    "preRunScript": {
+        "fileName": ""
+    },
+    "revision": 1,
+    "runScript": {
+        "fileName": ""
+    },
+    "severityAdd": "None",
+    "severityRemove": "Warning"
+}

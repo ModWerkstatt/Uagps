@@ -308,7 +308,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/uagps_a/uagps_a_andre.mtl", },
+							materials = { "mat/uagps_a/uagps_a_amylum.mtl", },
 							mesh = "msh/body_a_lod3.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

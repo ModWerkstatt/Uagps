@@ -1,0 +1,624 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 7.669633388519287109375, 1.534416675567626953125, 4.387266635894775390625, },
+			bbMin = { -7.669633388519287109375, -1.53441905975341796875, 0.4515312612056732177734375, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 7.669633388519287109375, 1.5344178676605224609375, 1.96786773204803466796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_vorne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.08, 0.865, 1.36, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_vorne2",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.08, -0.865, 1.36, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_hinten",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.23, 0.885, 1.54, 1, },
+						},
+						{ 
+							animations = { 
+								back_backward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_backward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "zugschluss_hinten2",
+							transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.23, -0.888, 1.54, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_underframe_lod0.msh",
+							name = "uagps_b_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_pipeUp_lod0.msh",
+							name = "uagps_b_pipeUp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_body_lod0.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_sustain_lod0.msh",
+							name = "uagps_b_sustain",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_zh_lod0.msh",
+							name = "uagps_b_zh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_buhne_lod0.msh",
+							name = "uagps_b_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_seilhaken_lod0.msh",
+							name = "uagps_b_seilhaken",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_dachOffner_lod0.msh",
+							name = "uagps_b_dachOffner",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_buffer_lod0.msh",
+							name = "uagps_b_buffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_couplers_lod0.msh",
+							name = "uagps_b_couplers",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_grainMechanics_lod0.msh",
+							name = "uagps_b_grainMechanics",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_grainOpening_lod0.msh",
+							name = "uagps_b_grainOpening",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_kegp_lod0.msh",
+							name = "uagps_b_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_ladder_lod0.msh",
+							name = "uagps_b_ladder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_underparts_lod0.msh",
+							name = "uagps_b_underparts",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_zs_lod0.msh",
+							name = "uagps_b_zs",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_b2_lod0.msh",
+									name = "uagps_a_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod0.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod0.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.19999980926513671875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_b2_lod0.msh",
+									name = "uagps_a_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod0.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod0.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.19999980926513671875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_underframe_lod1.msh",
+							name = "uagps_b_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_pipeUp_lod1.msh",
+							name = "uagps_b_pipeUp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_body_lod1.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_sustain_lod1.msh",
+							name = "uagps_b_sustain",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_zh_lod1.msh",
+							name = "uagps_b_zh",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_buhne_lod1.msh",
+							name = "uagps_b_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_seilhaken_lod1.msh",
+							name = "uagps_b_seilhaken",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_dachOffner_lod1.msh",
+							name = "uagps_b_dachOffner",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_buffer_lod1.msh",
+							name = "uagps_b_buffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_grainMechanics_lod1.msh",
+							name = "uagps_b_grainMechanics",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_grainOpening_lod1.msh",
+							name = "uagps_b_grainOpening",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_kegp_lod1.msh",
+							name = "uagps_b_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_ladder_lod1.msh",
+							name = "uagps_b_ladder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_zs_lod1.msh",
+							name = "uagps_b_zs",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_b2_lod1.msh",
+									name = "uagps_a_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod1.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod1.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.19999980926513671875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_b2_lod1.msh",
+									name = "uagps_a_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod1.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod1.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.19999980926513671875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_underframe_lod2.msh",
+							name = "uagps_b_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_pipeUp_lod2.msh",
+							name = "uagps_b_pipeUp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_body_lod2.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_buhne_lod2.msh",
+							name = "uagps_b_buhne",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_seilhaken_lod2.msh",
+							name = "uagps_b_seilhaken",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_buffer_lod2.msh",
+							name = "uagps_b_buffer",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_grainMechanics_lod2.msh",
+							name = "uagps_b_grainMechanics",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_grainOpening_lod2.msh",
+							name = "uagps_b_grainOpening",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_kegp_lod2.msh",
+							name = "uagps_b_kegp",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_ladder_lod2.msh",
+							name = "uagps_b_ladder",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_b2_lod2.msh",
+									name = "uagps_a_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod2.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod2.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.19999980926513671875, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_b2_lod2.msh",
+									name = "uagps_a_b2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod2.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.911235630512237548828125, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+								{ 
+									materials = { "mat/uagps_a/y25Sncf_black.mtl", },
+									mesh = "msh/uagps_a_w3_lod2.msh",
+									name = "uagps_a_w3",
+									transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -0.910000026226043701171875, -0.00000051503957365639507770538330078125, 0.466466486454010009765625, 1, },
+								},
+							},
+							name = "b2_group",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -5.19999980926513671875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 1200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/uagps_b_underframe_lod3.msh",
+							name = "uagps_b_underframe",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+						{ 
+							materials = { "mat/uagps_b/uagps_b_monfer.mtl", },
+							mesh = "msh/body_b_lod3.msh",
+							name = "body",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 478.751617431640625,
+				visibleTo = 1436.2548828125,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 2020,
+				yearTo = -1,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("uagps_b1_desc"),
+				name = _("Uagps (Monfer) [2020]"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = { },
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 33.299999237060546875,
+				weightEmpty = 20800,
+				weightMaxPayload = 60700,
+			},
+			maintenance = { 
+				lifespan = 25000,
+				runningCostScale = 1.100000000000000088817841970012523233890533447265625,
+				runningCosts = -1,
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "uagps_a_w3", },
+					fakeBogies = { },
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "mw_basis::/vehicle/waggon/mw_basis/sound/mw_rustikal.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 3,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 84,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { "::/cargos/grain/grain.cargo", },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { },
+				groupFileName = "menu_uagps_b.mdl",
+				loadSpeed = 4,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

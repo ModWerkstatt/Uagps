@@ -105,8 +105,8 @@ return {
 						},
 						{ 
 							materials = { "mat/uagps_a/uagps_a_andre2.mtl", },
-							mesh = "msh/uagps_a_body_lod0.msh",
-							name = "uagps_a_body",
+							mesh = "msh/body_a_lod0.msh",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -182,7 +182,7 @@ return {
 						{ 
 							materials = { "mat/uagps_a/uagps_a_andre2.mtl", },
 							mesh = "msh/body_a_lod1.msh",
-							name = "uagps_a_body",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -245,8 +245,8 @@ return {
 					children = {
 						{ 
 							materials = { "mat/uagps_a/uagps_a_andre2.mtl", },
-							mesh = "msh/uagps_a_body_lod2.msh",
-							name = "uagps_a_body",
+							mesh = "msh/body_a_lod2.msh",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -302,35 +302,23 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 300,
-				visibleTo = 1200,
+				visibleTo = 900,
 			},
 			{ 
 				node = { 
 					children = {
 						{ 
 							materials = { "mat/uagps_a/uagps_a_andre2.mtl", },
-							mesh = "msh/uagps_a_underframe_lod3.msh",
-							name = "uagps_a_underframe",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/uagps_a/uagps_a_andre2.mtl", },
-							mesh = "msh/uagps_a_body_lod3.msh",
-							name = "uagps_a_body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/uagps_a/uagps_a_andre2.mtl", },
-							mesh = "msh/uagps_a_bodyRoofTop_lod3.msh",
-							name = "uagps_a_bodyRoofTop",
+							mesh = "msh/body_a_lod3.msh",
+							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 493.902679443359375,
-				visibleTo = 1481.7080078125,
+				visibleFrom = 900,
+				visibleTo = 1500,
 			},
 		},
 		metadata = { 
@@ -343,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("uagps_a1_desc"),
-				name = _("Uagps (CTC - Andre) [1992]"),
+				name = _("Uagps CTC - Andre"),
 			},
 			emissions = { 
 				noise = { 

@@ -302,7 +302,7 @@ return {
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
 				visibleFrom = 300,
-				visibleTo = 1200,
+				visibleTo = 900,
 			},
 			{ 
 				node = { 
@@ -317,8 +317,8 @@ return {
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 				},
-				visibleFrom = 493.902679443359375,
-				visibleTo = 1481.7080078125,
+				visibleFrom = 900,
+				visibleTo = 1500,
 			},
 		},
 		metadata = { 
@@ -331,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("uagps_a1_desc"),
-				name = _("Uagps (CTC - Andre) [1971]"),
+				name = _("Uagps CTC - Andre"),
 			},
 			emissions = { 
 				noise = { 

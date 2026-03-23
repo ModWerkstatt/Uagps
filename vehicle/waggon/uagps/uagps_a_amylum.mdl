@@ -331,7 +331,7 @@ return {
 			},
 			description = { 
 				description = _("uagps_a1_desc"),
-				name = _("Uagps (CITA Amylum)  [1983]"),
+				name = _("Uagps CITA Amylum"),
 			},
 			emissions = { 
 				noise = { 

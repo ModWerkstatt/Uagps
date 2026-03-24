@@ -1,7 +1,8 @@
 {
   "en": {
 	
-		"menu_uagps" : "Carrying trolley for pa container",
+		"menu_uagps_a" : "Uagps (flat sidewalls)",
+		"menu_uagps_b" : "Uagps (curved sidewalls)",
 
         "fake": "Fake - ",
 		
@@ -35,15 +36,16 @@
   },
   "de": {
 	
-		"menu_uagps" : "Tragwagen für pa-Behälter",
+		"menu_uagps_a" : "Uagps (gerade Seitenwände)",
+		"menu_uagps_b" : "Uagps (gewölbte Seitenwände)",
 	
         "fake": "Fake - ",
 		
         "uagps_a1_desc" : "Universalgetreidewagen Uagps, gebaut 1971 von Fauvet Girel. Version mit geraden Seitenwänden, beschränkt auf 100 km/h.",
         "uagps_b1_desc" : "Universalgetreidewagen Uagps, gebaut 1974 von Fauvet Girel. Version mit gewölbten Seitenwänden.",
 		
-		"Uagps_a" : "Uagps (gerade Seitenwände)",
-		"Uagps_b" : "Uagps (gewölbte Seitenwände)",
+		"uagps_a" : "Uagps (gerade Seitenwände)",
+		"uagps_b" : "Uagps (gewölbte Seitenwände)",
 		
 		"tafel_aktiv" : "Art von Zugschluss",
 		"schluss_de" : "Zugschlusstafel",

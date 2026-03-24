@@ -3,6 +3,8 @@
 	
 		"menu_uagps" : "Carrying trolley for pa container",
 
+        "fake": "Fake - ",
+		
 		"uagps_a1_desc" : "Universal grain wagon Uagps, built in 1971 by Fauvet Girel. Version with flat sidewalls, limited to 100 km/h.",
 		"uagps_b1_desc" : "Universal grain wagon Uagps, built in 1974 by Fauvet Girel. Version with curved sidewalls.",
 		
@@ -35,6 +37,8 @@
 	
 		"menu_uagps" : "Tragwagen für pa-Behälter",
 	
+        "fake": "Fake - ",
+		
         "uagps_a1_desc" : "Universalgetreidewagen Uagps, gebaut 1971 von Fauvet Girel. Version mit geraden Seitenwänden, beschränkt auf 100 km/h.",
         "uagps_b1_desc" : "Universalgetreidewagen Uagps, gebaut 1974 von Fauvet Girel. Version mit gewölbten Seitenwänden.",
 		

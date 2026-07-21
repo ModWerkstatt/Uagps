@@ -30,29 +30,29 @@ return {
 			visibleTo = 1000,
 		},
 	},
-	metadata = { 
-		availability = { 
+	metadata = {
+		availability = {
 			yearFrom = 2010,
 			yearTo = 0000,
 		},
-		cost = { 
+		cost = {
 			price = -1,
 		},
-		description = { 
+		description = {
 			name = _("menu_uagps_a"),
 		},
-		emissions = { 
-			noise = { 
+		emissions = {
+			noise = {
 				score = 40,
 			},
-			pollution = { 
+			pollution = {
 				score = 25,
 			},
 		},
-		landVehicle = { 
+		landVehicle = {
 			brakeDeceleration = 2.5,
 			engines = {
-				{ 
+				{
 					power = 6400,
 					tractiveEffort = 320,
 					type = "ELECTRIC",
@@ -62,20 +62,20 @@ return {
 			topSpeed = 55.5556,
 			weight = 90,
 		},
-		maintenance = { 
+		maintenance = {
 			lifespan = 21915,
 			runningCosts = -1,
 		},
-		railVehicle = { 
-			config = { 
+		railVehicle = {
+			config = {
 			},
 		},
-		transformatorConfig = { 
-			discardLods = { 3, },
+		transformatorConfig = {
+			skipFromLods = 1,,
 			transformator = { name = "::/vehicle/train/shared/default_train.trf",
 			},
 		},
-		transportVehicle = { 
+		transportVehicle = {
 			carrier = "RAIL",
 			engineTransportModes = { },
 			transportModes = { },

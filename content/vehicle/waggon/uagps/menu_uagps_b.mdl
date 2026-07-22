@@ -71,7 +71,7 @@ return {
 			},
 		},
 		transformatorConfig = {
-			skipFromLods = 1,,
+			skipFromLods = 1,
 			transformator = { name = "::/vehicle/train/shared/default_train.trf",
 			},
 		},

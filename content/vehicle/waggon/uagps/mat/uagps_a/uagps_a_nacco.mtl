@@ -39,7 +39,7 @@ return {
 			map_albedo = { 
 				fragmentSamplers = { 
 					albedoTex = { 
-						fileName = "tex/uagpsA_nacco_albedo.dds",
+						fileName = "tex/uagpsa_nacco_albedo.dds",
 						type = "TWOD",
 					},
 				},
@@ -47,7 +47,7 @@ return {
 			map_cblend_dirt_rust = { 
 				fragmentSamplers = { 
 					cblendDirtRustTex = { 
-						fileName = "tex/uagpsA_cblend.dds",
+						fileName = "tex/uagpsa_cblend.dds",
 						type = "TWOD",
 					},
 				},
@@ -72,7 +72,7 @@ return {
 			map_metal_gloss_ao = { 
 				fragmentSamplers = { 
 					metalGlossAoTex = { 
-						fileName = "tex/uagpsA_mga.dds",
+						fileName = "tex/uagpsa_mga.dds",
 						type = "TWOD",
 					},
 				},
@@ -80,7 +80,7 @@ return {
 			map_normal = { 
 				fragmentSamplers = { 
 					normalTex = { 
-						fileName = "tex/uagpsA_nrml.dds",
+						fileName = "tex/uagpsa_nrml.dds",
 						redGreen = true,
 						type = "TWOD",
 					},
